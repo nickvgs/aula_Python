@@ -12,8 +12,13 @@ if d > 10:
     d = int(input('Você digitou errado. Quarto bimestre: '))
 
 media = (a + b + c + d) / 4
-
+if 6 <= media:
+  print('O aluno foi aprovado')
+else:
+        (print("O aluno foi reprovado"))
 print('media: {}'.format(media))
+
+
 
 
 # if a <= 10 and b <= 10 and c <= 10 and d <= 10:
